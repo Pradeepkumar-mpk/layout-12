@@ -1,0 +1,49 @@
+.header{
+	display:flex;
+	height:80px;
+	flex-direction:row;
+	justify-content:space-evenly;
+}
+.page{
+	display:flex;
+	flex-direction:row;
+}
+.contact{
+	height:200px;
+	font-size:40px;
+	font-weight:bold;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.details{
+	display:flex;
+	justify-content:start;
+	width:100%;
+}
+.details .image1{
+	background-color:lightblue;
+	height:150px;
+	width:33.33%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+
+}
+.details .image2{
+	background-color:khaki;
+	height:150px;
+	width:33.33%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.details .image3{
+	background-color:red;
+	height:150px;
+	width:33.33%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+
+}
